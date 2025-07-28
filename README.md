@@ -1,46 +1,103 @@
 # Automobile-Sales-Statistics-Dashboard
 
-This interactive dashboard application, built using Dash, Plotly, and Pandas, provides a visual exploration of historical automobile sales data across different years and economic conditions. Users can toggle between Yearly Statistics and Recession Period Statistics to view key insights on vehicle sales trends, advertising expenditures, and economic factors like unemployment.
+An interactive dashboard built with Dash, Plotly, and Pandas to analyze historical automobile sales data. The app offers two modes—Yearly Statistics and Recession Period Statistics—with a variety of insightful visualizations related to vehicle sales, advertisement spending, and economic indicators.
 
-📊 Features:
-Interactive dropdown filters for report type and year selection
+📊 Dashboard Features
+🔄 Toggle between two report types:
 
-Visualizations using Plotly Express:
+Yearly Statistics: Select a specific year to analyze monthly trends, vehicle types, and ad expenditure.
 
-Line charts for yearly/monthly sales trends
+Recession Period Statistics: View trends during recession years, including unemployment effects and ad spend breakdown.
 
-Bar charts for average vehicle sales by type
+📈 Dynamic visualizations:
 
-Pie charts for advertising expenditure distribution
+Line charts for sales trends over time
 
-Multivariate bar charts showing the impact of unemployment
+Bar charts for average sales by vehicle type
 
-Clean and modular callback structure in Dash
+Pie charts showing advertising expenditure distribution
 
-Dynamically enabled/disabled year filter based on the report type
+Multivariate charts correlating unemployment rate and vehicle sales
 
-📁 Dataset:
-Source: historical_automobile_sales.csv
+🎯 User interactivity:
 
-Contains fields like Year, Month, Automobile_Sales, Vehicle_Type, Advertising_Expenditure, and Unemployment_Rate
+Dropdown controls to filter by report type and year
 
-⚙️ Technologies Used:
-Python
+Conditional enabling/disabling of filters based on selection
 
-Dash (by Plotly)
+📁 Dataset Overview
+File: historical_automobile_sales.csv
 
-Plotly Express
+Key Columns:
 
-Pandas
+Year, Month
 
-🚀 How to Run:
-Clone this repository
+Automobile_Sales
 
-Install dependencies: pip install dash pandas plotly
+Vehicle_Type
 
-Ensure the dataset path is correctly set
+Advertising_Expenditure
 
-Run: python app.py
+unemployment_rate
 
-Open in your browser: http://127.0.0.1:8050/
+Recession (1 if recession, else 0)
 
+🛠️ Tech Stack
+Frontend/Interactivity: Dash by Plotly
+
+Visualization: Plotly Express
+
+Data Manipulation: Pandas
+
+Language: Python 3.x
+
+🚀 Getting Started
+🔧 Requirements
+bash
+Copy
+Edit
+pip install dash pandas plotly
+▶️ Running the App
+Clone this repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/automobile-sales-dashboard.git
+cd automobile-sales-dashboard
+Replace the dataset path in app.py if necessary.
+
+Run the app:
+
+bash
+Copy
+Edit
+python app.py
+Open your browser and go to:
+
+cpp
+Copy
+Edit
+http://127.0.0.1:8050/
+📷 Screenshots
+Add screenshots here to showcase the dashboard interface. You can add them like:
+
+scss
+Copy
+Edit
+![Dashboard Screenshot](screenshots/dashboard_main.png)
+💡 Future Improvements
+Add time-series forecasting for future sales
+
+Enable CSV upload to test with different datasets
+
+Improve layout responsiveness for mobile
+
+Deploy on Heroku or Render for live demo
+
+📌 License
+This project is open-source and available under the MIT License.
+
+🙋‍♂️ Author
+Pratham Baraskar
+Connect with me on LinkedIn [https://www.linkedin.com/in/prathambaraskar/] | View more projects on GitHub 
