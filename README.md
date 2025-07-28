@@ -80,12 +80,8 @@ Copy
 Edit
 http://127.0.0.1:8050/
 📷 Screenshots
-Add screenshots here to showcase the dashboard interface. You can add them like:
+<img width="1213" height="723" alt="Yearly report graphs" src="https://github.com/user-attachments/assets/f234bf1f-f947-4c77-87e7-5974bd25a5eb" />
 
-scss
-Copy
-Edit
-![Dashboard Screenshot](screenshots/dashboard_main.png)
 💡 Future Improvements
 Add time-series forecasting for future sales
 
