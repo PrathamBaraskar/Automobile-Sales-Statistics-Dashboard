@@ -79,8 +79,12 @@ cpp
 Copy
 Edit
 http://127.0.0.1:8050/
+
 📷 Screenshots
+<img width="1690" height="462" alt="title" src="https://github.com/user-attachments/assets/e3fdac2e-19bc-4a69-92f3-59edf226e5c7" />
 <img width="1213" height="723" alt="Yearly report graphs" src="https://github.com/user-attachments/assets/f234bf1f-f947-4c77-87e7-5974bd25a5eb" />
+<img width="1186" height="752" alt="recessionreportgraphs" src="https://github.com/user-attachments/assets/d2f585c3-8b48-4fb4-bba0-f8697049485c" />
+
 
 💡 Future Improvements
 Add time-series forecasting for future sales
